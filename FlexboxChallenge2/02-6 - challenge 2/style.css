@@ -58,28 +58,35 @@ header {
   padding: 0.5em 0;
 }
 
+.logo {
+  /* border: 2px solid yellow; */
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  /* border: 2px solid red; */
 }
 
 .nav__list {
   margin: 0;
   padding: 0;
   list-style: none;
-
   display: flex;
   gap: 1em;
-
   font-size: 0.9rem;
+  border: 2px solid red;
+}
+
+.nav__list--primary {
+  margin: 0 auto;
 }
 
 /* .nav__item--push-right {
   margin-left: auto;
 } */
-
-.nav__item {
-}
 
 .nav__link {
   color: #fff;
@@ -104,7 +111,7 @@ header {
   /* display: flex => flex container */
   display: flex;
   justify-content: space-between;
-  gap: 2em;
+  gap: 1em;
 }
 
 .col {
